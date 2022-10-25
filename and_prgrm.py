@@ -9,3 +9,12 @@ y_predict=clf.predict(x_test)
 print(y_predict)
 print(clf.coef_,clf.intercept_)
 print(clf.score(x_test,y_predict))
+
+
+
+
+output::
+
+[1 0 1 0]
+[[2. 2.]] [-2.]
+1.0
